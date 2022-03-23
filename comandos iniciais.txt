@@ -1,0 +1,232 @@
+Microsoft Windows [versão 10.0.19042.1466]
+(c) Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\arthu>dotnet --version
+6.0.201
+
+C:\Users\arthu>dotnet --info
+SDK do .NET (refletindo qualquer global.json):
+ Version:   6.0.201
+ Commit:    ef40e6aa06
+
+Ambiente de runtime:
+ OS Name:     Windows
+ OS Version:  10.0.19042
+ OS Platform: Windows
+ RID:         win10-x64
+ Base Path:   C:\Program Files\dotnet\sdk\6.0.201\
+
+Host (useful for support):
+  Version: 6.0.3
+  Commit:  c24d9a9c91
+
+.NET SDKs installed:
+  6.0.201 [C:\Program Files\dotnet\sdk]
+
+.NET runtimes installed:
+  Microsoft.AspNetCore.App 3.1.10 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.AspNetCore.App 6.0.3 [C:\Program Files\dotnet\shared\Microsoft.AspNetCore.App]
+  Microsoft.NETCore.App 3.1.10 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.NETCore.App 6.0.3 [C:\Program Files\dotnet\shared\Microsoft.NETCore.App]
+  Microsoft.WindowsDesktop.App 6.0.3 [C:\Program Files\dotnet\shared\Microsoft.WindowsDesktop.App]
+
+To install additional .NET runtimes or SDKs:
+  https://aka.ms/dotnet-download
+
+C:\Users\arthu>dotnet --help
+SDK do .NET (6.0.201)
+Uso: dotnet [runtime-options] [path-to-application] [arguments]
+
+Execute um aplicativo do .NET.
+
+runtime-options:
+  --additionalprobingpath <path>   Caminho contendo a política de investigação e os assemblies a investigar.
+  --additional-deps <path>         Caminho para o arquivo deps.json adicional.
+  --depsfile                       Caminho para o arquivo <application>.deps.json.
+  --fx-version <version>           Versão do Shared Framework instalada a ser usada para a execução do aplicativo.
+  --roll-forward <setting>         Role para frente para a versão de estrutura (LatestPatch, Minor, LatestMinor, Major, LatestMajor, Disable).
+  --runtimeconfig                  Caminho para o arquivo <application>. runtimeconfig.json.
+
+path-to-application:
+  O caminho para um arquivo .dll de aplicativo a ser executado.
+
+Uso: dotnet [sdk-options] [command] [command-options] [arguments]
+
+Execute um comando do SDK do .NET.
+
+sdk-options:
+  -d|--diagnostics  Habilitar saída de diagnóstico.
+  -h|--help         Mostrar a ajuda da linha de comando.
+  --info            Exiba informações do .NET.
+  --list-runtimes   Exiba os runtimes instalados.
+  --list-sdks       Exiba os SDKs instalados.
+  --version         Exiba a versão do SDK do .NET em uso.
+
+Comandos do SDK:
+  add               Adicionar um pacote ou uma referência a um projeto do .NET.
+  build             Criar um projeto do .NET.
+  build-server      Interagir com servidores iniciados por um build.
+  clean             Limpar as saídas do build de um projeto do .NET.
+  format            Aplicar preferências de estilo a um projeto ou solução.
+  help              Mostrar a ajuda da linha de comando.
+  list              Listar as referências de um projeto do .NET.
+  msbuild           Executar comandos do MSBuild (Microsoft Build Engine).
+  new               Criar um novo projeto ou arquivo do .NET.
+  nuget             Fornece comandos adicionais do NuGet.
+  pack              Criar um pacote do NuGet.
+  publish           Publicar um projeto do .NET para implantação.
+  remove            Remover um pacote ou uma referência de um projeto do .NET.
+  restore           Restaurar as dependências especificadas em um projeto do .NET.
+  run               Criar e executar uma saída de projeto do .NET.
+  sdk               Gerencie a instalação do SDK do .NET.
+  sln               Modificar os arquivos da solução do Visual Studio.
+  store             Armazenar os assemblies especificados no repositório de pacotes do runtime.
+  test              Executar testes de unidade usando o executor de testes especificado em um projeto do .NET.
+  tool              Instalar ou gerenciar ferramentas que ampliam a experiência do .NET.
+  vstest            Executar comandos do VSTest (Microsoft Test Engine).
+  workload          Gerenciar as cargas de trabalho opcionais.
+
+Comandos adicionais de ferramentas em pacote:
+  dev-certs         Crie e gerencie certificados de desenvolvimento.
+  fsi               Iniciar F# Interativo / executar scripts do F#.
+  sql-cache         Ferramentas de linha de comando do cache do SQL Server.
+  user-secrets      Gerencie segredos do usuário de desenvolvimento.
+  watch             Inicie um observador de arquivo que executa um comando quando os arquivos são alterados.
+
+Execute 'dotnet [command] --help' para obter mais informações sobre um comando.
+
+C:\Users\arthu>dotnet -h
+SDK do .NET (6.0.201)
+Uso: dotnet [runtime-options] [path-to-application] [arguments]
+
+Execute um aplicativo do .NET.
+
+runtime-options:
+  --additionalprobingpath <path>   Caminho contendo a política de investigação e os assemblies a investigar.
+  --additional-deps <path>         Caminho para o arquivo deps.json adicional.
+  --depsfile                       Caminho para o arquivo <application>.deps.json.
+  --fx-version <version>           Versão do Shared Framework instalada a ser usada para a execução do aplicativo.
+  --roll-forward <setting>         Role para frente para a versão de estrutura (LatestPatch, Minor, LatestMinor, Major, LatestMajor, Disable).
+  --runtimeconfig                  Caminho para o arquivo <application>. runtimeconfig.json.
+
+path-to-application:
+  O caminho para um arquivo .dll de aplicativo a ser executado.
+
+Uso: dotnet [sdk-options] [command] [command-options] [arguments]
+
+Execute um comando do SDK do .NET.
+
+sdk-options:
+  -d|--diagnostics  Habilitar saída de diagnóstico.
+  -h|--help         Mostrar a ajuda da linha de comando.
+  --info            Exiba informações do .NET.
+  --list-runtimes   Exiba os runtimes instalados.
+  --list-sdks       Exiba os SDKs instalados.
+  --version         Exiba a versão do SDK do .NET em uso.
+
+Comandos do SDK:
+  add               Adicionar um pacote ou uma referência a um projeto do .NET.
+  build             Criar um projeto do .NET.
+  build-server      Interagir com servidores iniciados por um build.
+  clean             Limpar as saídas do build de um projeto do .NET.
+  format            Aplicar preferências de estilo a um projeto ou solução.
+  help              Mostrar a ajuda da linha de comando.
+  list              Listar as referências de um projeto do .NET.
+  msbuild           Executar comandos do MSBuild (Microsoft Build Engine).
+  new               Criar um novo projeto ou arquivo do .NET.
+  nuget             Fornece comandos adicionais do NuGet.
+  pack              Criar um pacote do NuGet.
+  publish           Publicar um projeto do .NET para implantação.
+  remove            Remover um pacote ou uma referência de um projeto do .NET.
+  restore           Restaurar as dependências especificadas em um projeto do .NET.
+  run               Criar e executar uma saída de projeto do .NET.
+  sdk               Gerencie a instalação do SDK do .NET.
+  sln               Modificar os arquivos da solução do Visual Studio.
+  store             Armazenar os assemblies especificados no repositório de pacotes do runtime.
+  test              Executar testes de unidade usando o executor de testes especificado em um projeto do .NET.
+  tool              Instalar ou gerenciar ferramentas que ampliam a experiência do .NET.
+  vstest            Executar comandos do VSTest (Microsoft Test Engine).
+  workload          Gerenciar as cargas de trabalho opcionais.
+
+Comandos adicionais de ferramentas em pacote:
+  dev-certs         Crie e gerencie certificados de desenvolvimento.
+  fsi               Iniciar F# Interativo / executar scripts do F#.
+  sql-cache         Ferramentas de linha de comando do cache do SQL Server.
+  user-secrets      Gerencie segredos do usuário de desenvolvimento.
+  watch             Inicie um observador de arquivo que executa um comando quando os arquivos são alterados.
+
+Execute 'dotnet [command] --help' para obter mais informações sobre um comando.
+
+C:\Users\arthu>dotnet new -h
+Usage: new [options]
+
+Options:
+  -h, --help                     Exibe a ajuda para este comando.
+  -l, --list <PARTIAL_NAME>      Lista os modelos que contêm o nome do modelo especificado. Se nenhum nome for especificado, lista todos os modelos.
+  -n, --name                     O nome da saída que está sendo criada. Se nenhum nome for especificado, o nome do diretório de saída será usado.
+  -o, --output                   Local para colocar a saída gerada.
+  -i, --install                  Instala um pacote de origem ou de modelo.
+  -u, --uninstall                Instala uma origem ou pacote de modelo.
+  --interactive                  Permite que o comando dotnet restore interno seja interrompido e aguarde a ação ou entrada do usuário (por exemplo, para concluir a autenticação).
+  --add-source, --nuget-source   Especifica uma fonte do NuGet a ser usada durante a instalação.
+  --type                         Filtra modelos com base em tipos disponíveis. Os valores predefinidos são "projeto" e "item".
+  --dry-run                      Exibe um resumo do que aconteceria se a linha de comando especificada fosse executada se resultar em uma criação de modelo.
+  --force                        Força o conteúdo a ser gerado mesmo que ele altere arquivos existentes.
+  -lang, --language              Filtra modelos baseados em linguagem e especifica o idioma do modelo a ser criado.
+  --update-check                 Verifique os pacotes de modelo instalados atualmente para atualização.
+  --update-apply                 Verifique os pacotes de modelo instalados atualmente para atualização e instale as atualizações.
+  --search <PARTIAL_NAME>        Pesquisa os modelos em NuGet.org.
+  --author <AUTHOR>              Filtra os modelos com base no autor do modelo. Aplicável somente com --busca ou --lista | -l opção.
+  --package <PACKAGE>            Filtra os modelos baseados na ID do pacote NuGet. aplica-se a --pesquisa.
+  --columns <COLUMNS_LIST>       Lista de colunas separadas por vírgulas a serem exibidas na saída --lista e --pesquisa.
+                                 As colunas com suporte são: idioma, marcas, autor, tipo.
+  --columns-all                  Exibir todas as colunas na saída de --lista e --pesquisa.
+  --tag <TAG>                    Filtra os modelos com base na marca. Aplica-se a --pesquisa e --lista.
+  --no-update-check              Desativa a verificação de atualizações de pacote de modelo ao instanciar um modelo.
+
+
+
+C:\Users\arthu>dotnet new -l
+Esses modelos correspondem à sua entrada:
+
+Nome do modelo      Nome Curto           Idioma      Tags
+------------------  -------------------  ----------  --------------------------
+Aplicativo do C...  console              [C#],F#,VB  Common/Console
+Aplicativo do W...  winforms             [C#],VB     Common/WinForms
+Aplicativo WPF      wpf                  [C#],VB     Common/WPF
+Arquivo de Conf...  webconfig                        Config
+arquivo de dotn...  gitignore                        Config
+Arquivo de mani...  tool-manifest                    Config
+Arquivo de Solução  sln                              Solution
+Arquivo EditorC...  editorconfig                     Config
+arquivo global....  globaljson                       Config
+ASP.NET Core Empty  web                  [C#],F#     Web/Empty
+ASP.NET Core gR...  grpc                 [C#]        Web/gRPC
+ASP.NET Core We...  webapi               [C#],F#     Web/WebAPI
+ASP.NET Core We...  webapp,razor         [C#]        Web/MVC/Razor Pages
+ASP.NET Core We...  mvc                  [C#],F#     Web/MVC
+ASP.NET Core wi...  angular              [C#]        Web/MVC/SPA
+ASP.NET Core wi...  react                [C#]        Web/MVC/SPA
+Biblioteca de C...  classlib             [C#],F#,VB  Common/Library
+Biblioteca de C...  winformslib          [C#],VB     Common/WinForms
+Biblioteca de C...  wpflib               [C#],VB     Common/WPF
+Biblioteca de C...  wpfusercontrollib    [C#],VB     Common/WPF
+Biblioteca de C...  winformscontrollib   [C#],VB     Common/WinForms
+Biblioteca de C...  wpfcustomcontrollib  [C#],VB     Common/WPF
+Blazor Server App   blazorserver         [C#]        Web/Blazor
+Blazor WebAssem...  blazorwasm           [C#]        Web/Blazor/WebAssembly/PWA
+Configuração do...  nugetconfig                      Config
+MSTest Test Pro...  mstest               [C#],F#,VB  Test/MSTest
+MVC ViewImports     viewimports          [C#]        Web/ASP.NET
+MVC ViewStart       viewstart            [C#]        Web/ASP.NET
+NUnit 3 Test Item   nunit-test           [C#],F#,VB  Test/NUnit
+NUnit 3 Test Pr...  nunit                [C#],F#,VB  Test/NUnit
+Protocol Buffer...  proto                            Web/gRPC
+Razor Class Lib...  razorclasslib        [C#]        Web/Razor/Library
+Razor Component     razorcomponent       [C#]        Web/ASP.NET
+Razor Page          page                 [C#]        Web/ASP.NET
+Worker Service      worker               [C#],F#     Common/Worker/Web
+xUnit Test Project  xunit                [C#],F#,VB  Test/xUnit
+
+
+C:\Users\arthu>

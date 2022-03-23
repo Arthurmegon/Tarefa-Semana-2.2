@@ -1,0 +1,41 @@
+Microsoft Windows [versão 10.0.19042.1466]
+(c) Microsoft Corporation. Todos os direitos reservados.
+
+C:\Users\arthu>dotnet
+
+Usage: dotnet [options]
+Usage: dotnet [path-to-application]
+
+Options:
+  -h|--help         Display help.
+  --info            Display .NET information.
+  --list-sdks       Display the installed SDKs.
+  --list-runtimes   Display the installed runtimes.
+
+path-to-application:
+  The path to an application .dll file to execute.
+
+C:\Users\arthu>dotnet new console -o MyApp -f net6.0
+O modelo "Aplicativo do Console" foi criado com êxito.
+
+Processando ações pós-criação...
+Executando 'dotnet restore' em C:\Users\arthu\MyApp\MyApp.csproj...
+  Determinando os projetos a serem restaurados...
+  C:\Users\arthu\MyApp\MyApp.csproj restaurado (em 73 ms).
+A restauração foi bem-sucedida.
+
+
+C:\Users\arthu>cd MyApp
+
+C:\Users\arthu\MyApp>donet run
+'donet' não é reconhecido como um comando interno
+ou externo, um programa operável ou um arquivo em lotes.
+
+C:\Users\arthu\MyApp>dotnet run
+Hello, World!
+
+C:\Users\arthu\MyApp>dotnet run
+Hello, World!
+The current time is 22/03/2022 22:06:42
+
+C:\Users\arthu\MyApp>
